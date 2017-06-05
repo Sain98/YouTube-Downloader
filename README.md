@@ -9,7 +9,8 @@ I currently am working on a second version that has more options for how to down
 ### Requirements:
 YouTube library used: https://github.com/nficano/pytube
 Audio Library used: https://github.com/Zulko/moviepy
-also required FFMPEG for the audio library (MoviePy installed it for me or search it trough google)
+also required FFMPEG for the audio library
+(MoviePy installed it for me or search it through google if it doesnt)
 
 ### How it works:
 You have a file each line contains a link and if you want a custom title
@@ -21,10 +22,10 @@ it will start converting them all into mp3's into a seperate folder named 'mp3'
 
 Note for custom title's 
 any reserved characters will be removed from the custom title
-reserved characters: ['<', '>', ':', '"', '/', '\\', '|', '?', '*']
+This is because of how filenames work in windows
+reserved characters: 
+['<', '>', ':', '"', '/', '\\', '|', '?', '*']
 
-Content for the file containing the videos you want to download:
-URL : Custom title (not required)
 
 ### Example for a file:
-https://www.youtube.com/watch?v=dQw4w9WgXcQ : Not RickRoll
+https://www.youtube.com/watch?v=dQw4w9WgXcQ : My video title
