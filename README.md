@@ -4,31 +4,33 @@ by _Sain
 ### About this project:
 This is a small toy project i used to get a few video's i wanted off youtube. 
 
-later i added another library so i was able to convert these videos to '.mp3' files 
-
-I currently am working on a second version that has more options for how to download etc.
-
-That will probably be added to this git not sure when its gonna be done though
-
 ### Requirements:
-YouTube library used: https://github.com/nficano/pytube 
+YouTube library used: [PyTube](https://github.com/nficano/pytube)
 
-Audio Library used: https://github.com/Zulko/moviepy 
+Audio/Video Library used: [MoviePy](https://github.com/Zulko/moviepy)
+(for converting to mp3's)
 
 also required FFMPEG for the audio library 
 
 (MoviePy installed it for me or search it through google if it doesnt)
 
-### How it works:
-You have a file each line contains a link and if you want a custom title
+### Features:
+Currently in its 2nd version which has support for different types off input such as:
 
-the custom title will be used as a filename to save the downloaded video under
++ direct link
++ link(s) from file
++ link(s) from a YouTube playlist (TODO)
 
-it will be stored inside a folder that will be made with the same name
-as the file you enter that contains your url's
+#### Downloading links from a file:
+for every line on the file it checks or the user gave a custom title
 
-After it finished downloading all the youtube videos,
-it will start converting them all into mp3's into a seperate folder named 'mp3'
+uses the link to download the file and if given saves it under the custom title
+
+if no custom title is given it will save it under a generated one
+
+Example for a file:
+
+https://www.youtube.com/watch?v=dQw4w9WgXcQ : My video title
 
 #### Note for custom title's:
 any reserved characters will be removed from the custom title
@@ -38,5 +40,5 @@ reserved characters:
 ['<', '>', ':', '"', '/', '\\', '|', '?', '*']
 
 
-### Example for a file:
+### Example for a file (any_name.txt):
 https://www.youtube.com/watch?v=dQw4w9WgXcQ : My video title
