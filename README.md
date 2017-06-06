@@ -4,6 +4,8 @@ by _Sain
 ### About this project:
 This is a small toy project i used to get a few video's i wanted off youtube. 
 
+Python version 2.7.13
+
 ### Requirements:
 YouTube library used: [PyTube](https://github.com/nficano/pytube)
 
