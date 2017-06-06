@@ -28,8 +28,7 @@ uses the link to download the file and if given saves it under the custom title
 
 if no custom title is given it will save it under a generated one
 
-Example for a file:
-
+##### Example for a file (any_name.txt):
 https://www.youtube.com/watch?v=dQw4w9WgXcQ : My video title
 
 #### Note for custom title's:
@@ -38,7 +37,3 @@ This is because of how filenames work in windows
 
 reserved characters: 
 ['<', '>', ':', '"', '/', '\\', '|', '?', '*']
-
-
-### Example for a file (any_name.txt):
-https://www.youtube.com/watch?v=dQw4w9WgXcQ : My video title
