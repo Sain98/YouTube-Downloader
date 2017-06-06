@@ -238,15 +238,6 @@ def opt2_quality():
 
 # == MAIN ==
 def main():
-	# DEBUG:
-	download(
-		'https://www.youtube.com/watch?v=0G1lZVCJuSQ',
-		'downloads',
-		['1080p', '720p', '480p', '360p']
-		)
-
-	quit()
-	# ==========
 	print "YouTube Downloader Version 2"
 	print "Please select how you will be giving the URL's for the video's"
 	print ""
